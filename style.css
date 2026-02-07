@@ -12,6 +12,11 @@ body {
     linear-gradient(150deg, #f2b800 12%, transparent 12.5%, transparent 87%, #f2b800 87.5%, #f2b800),
     linear-gradient(90deg, #f7c400 12%, transparent 12.5%, transparent 87%, #f7c400 87.5%, #f7c400);
   background-size: 52px 90px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 /* ===============================
@@ -205,7 +210,7 @@ button:active {
 
   .container {
     width: 85%;
-    margin: 25px auto;
+    margin: 0 auto;
     padding: 22px;
 
     box-shadow:
@@ -260,7 +265,7 @@ button:active {
 
   .container {
     width: 82%;
-    margin: 15px auto;
+    margin: 0 auto;
     padding: 14px;
 
     box-shadow:
